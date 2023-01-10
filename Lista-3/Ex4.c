@@ -32,7 +32,7 @@ int main(){
         printf("O resultado da subtracao e %.2f", r);
         break;
     case 3: r = n1 * n2;
-        printf("O resultado da multiplicacao e %.2f", r);
+        printf("O resultado da multiplicacao e %2.2f", r);
         break;
     
     case 4:
@@ -47,6 +47,5 @@ int main(){
         printf("Voce deve escolher uma operacao");
         break;
     }
-
 
 }
